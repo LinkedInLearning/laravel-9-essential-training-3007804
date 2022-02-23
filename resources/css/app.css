@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+    .btn-link {
+        @apply inline-block px-4 py-2 bg-indigo-700 rounded-md font-bold text-sm text-white uppercase tracking-widest hover:bg-indigo-800 active:bg-indigo-900 focus:ring ring-indigo-300;
+    }
+    .btn-lg {
+        @apply px-6 py-3;
+    }
+}
