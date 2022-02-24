@@ -714,6 +714,9 @@ select {
 .ml-8 {
   margin-left: 2rem;
 }
+.ml-auto {
+  margin-left: auto;
+}
 .block {
   display: block;
 }
