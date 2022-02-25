@@ -114,8 +114,14 @@ class NoteController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Note $note)
     {
-        //
+        if($note->user_id != Auth::id()) {
+            return abort(403);
+        }
+
+        $note->delete();
+
+        return to_route('notes.index');
     }
 }

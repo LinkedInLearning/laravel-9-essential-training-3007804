@@ -9,4 +9,10 @@
     .btn-lg {
         @apply px-6 py-3;
     }
+    .btn {
+        @apply px-4 py-2 rounded-md font-bold text-sm text-white uppercase tracking-widest focus:ring focus:outline-none;
+    }
+    .btn-danger {
+        @apply bg-red-600 hover:bg-red-700 active:bg-red-700 ring-red-300;
+    }
 }
