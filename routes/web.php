@@ -21,4 +21,8 @@ Route::get('/trashed/{note}', [TrashedNoteController::class, 'show'])
         ->withTrashed()
         ->middleware('auth')->name('trashed.show');
 
+Route::put('/trashed/{note}', [TrashedNoteController::class, 'update'])
+        ->withTrashed()
+        ->middleware('auth')->name('trashed.update');
+
 require __DIR__.'/auth.php';
