@@ -13,4 +13,12 @@ class TrashedNoteController extends Controller
                 ->latest('updated_at')->paginate(5);
         return view('notes.index')->with('notes', $notes);
     }
+
+    public function show(Note $note) {
+        if(!$note->user->is(Auth::user())) {
+            return abort(403);
+        }
+
+        return view('notes.show')->with('note', $note);
+    }
 }
