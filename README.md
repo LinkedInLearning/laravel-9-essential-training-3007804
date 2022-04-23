@@ -1,8 +1,12 @@
 # Laravel 9.0 Essential Training
-This is the repository for the LinkedIn Learning course `Laravel 9.0 Essential Training`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Laravel 9.0 Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![Laravel 9.0 Essential Training][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
+Laravel, the open-source PHP web framework, has become one of the most widely used ecosystems for building scalable apps at lightning-quick speed. If you’re a PHP developer looking to take your career to the next level, this course was made for you. Join instructor Shruti Balasa as she takes you on a journey through the fundamentals of the Laravel framework.
+
+Learn about MVC architecture, how the Laravel framework is structured, routes and controllers, Blade files, models, and best practices for interacting with a database. Get tips on using various components in Laravel as you build your own simple note-taking app. From user authentication and routing, to CRUD operations and database relations, find out why the latest version, Laravel 9.0, allows you to build web apps quickly and easily, no matter where you are on your coding journey.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -69,8 +73,18 @@ To resolve this issue:
     ```
 10. Go to localhost on your browser to view the application
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+
+### Instructor
+
+Shruti Balasa 
+                            
+
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/shruti-balasa).
+
+[lil-course-url]: https://www.linkedin.com/learning/laravel-9-0-essential-training
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3007804/3007804-1650476173198-16x9.jpg
 
